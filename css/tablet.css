@@ -1,0 +1,95 @@
+@media (max-width: 768px) {
+  .stack-nav {
+    display: none;
+  }
+  .avatar {
+    display: none;
+  }
+
+  /* thông tin cá nhân */
+  #target {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .target-title {
+    margin-left: 20px;
+    font-size: x-large;
+  }
+  .info-title {
+    margin-left: 50px;
+    font-size: x-large;
+  }
+  .mt-40-info {
+    margin-left: 50px;
+  }
+
+  /* thông tin nghề nghiệp */
+  #job-info {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  .info-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto;
+  }
+  .info-container h1 {
+    font-size: x-large;
+  }
+  .info-container h4 {
+    font-size: large;
+  }
+  .info-container h6 {
+    font-size: smaller;
+  }
+
+  /* chứng chỉ giải thưởng */
+  .cf-img img {
+    width: 90%;
+    margin-bottom: 10px;
+  }
+  .cf-title {
+    margin-left: 50px;
+    font-size: x-large;
+  }
+  .cf-img {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .cf-web {
+    display: flex;
+    flex-direction: column;
+  }
+  .cf-java {
+    display: flex;
+    flex-direction: column;
+  }
+  .cf-db {
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: 2fr 3fr;
+    padding: 35px 0 35px 0px;
+  }
+
+  /* Dự án */
+  .project-container {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .com-pro-info {
+    grid-template-columns: 1fr 2fr;
+    padding: 5px 0 0 0;
+    gap: 0px;
+    margin-left: 0px;
+  }
+
+  .dev {
+    grid-column: 1/3;
+    justify-self: end;
+    margin-right: 35px;
+  }
+  .com-pro-info .year {
+    margin-left: 10px;
+  }
+}
